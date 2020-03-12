@@ -2,7 +2,7 @@
 import socket
 import time
 HOST = '192.168.12.253'                 # Symbolic name meaning all available interfaces
-PORT = 2323           # Arbitrary non-privileged port
+PORT = 5665           # Arbitrary non-privileged port
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))

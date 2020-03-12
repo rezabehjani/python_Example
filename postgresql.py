@@ -13,7 +13,7 @@ host_postgres = "127.0.0.1"
 port_postgres = "5432"
 database_postgres = "postgres"
 
-
+# in psycopg2      not question mark ?????????  work   use %s %s %s %s %s %s  for plase holder 
 
 def function (function_name, value_tuple=None):
     try:
